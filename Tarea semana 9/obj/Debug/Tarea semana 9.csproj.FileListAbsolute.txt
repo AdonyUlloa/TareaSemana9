@@ -1,0 +1,10 @@
+C:\Users\PC\source\repos\Tarea semana 9\Tarea semana 9\obj\Debug\Tarea semana 9.csprojAssemblyReference.cache
+C:\Users\PC\source\repos\Tarea semana 9\Tarea semana 9\obj\Debug\Tarea_semana_9.Form1.resources
+C:\Users\PC\source\repos\Tarea semana 9\Tarea semana 9\obj\Debug\Tarea_semana_9.Properties.Resources.resources
+C:\Users\PC\source\repos\Tarea semana 9\Tarea semana 9\obj\Debug\Tarea semana 9.csproj.GenerateResource.cache
+C:\Users\PC\source\repos\Tarea semana 9\Tarea semana 9\obj\Debug\Tarea semana 9.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\Tarea semana 9\Tarea semana 9\bin\Debug\Tarea semana 9.exe.config
+C:\Users\PC\source\repos\Tarea semana 9\Tarea semana 9\bin\Debug\Tarea semana 9.exe
+C:\Users\PC\source\repos\Tarea semana 9\Tarea semana 9\bin\Debug\Tarea semana 9.pdb
+C:\Users\PC\source\repos\Tarea semana 9\Tarea semana 9\obj\Debug\Tarea semana 9.exe
+C:\Users\PC\source\repos\Tarea semana 9\Tarea semana 9\obj\Debug\Tarea semana 9.pdb
