@@ -19,27 +19,35 @@ namespace Tarea_semana_9
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            //instacia de la clase Perro
-            Perro perro = new Perro();
 
-            //creamos un objeto perro
-            perro.setperroId(1);
-            perro.setName(" Roky");
-
-            //mostrar datos de perro
-            //GET
-            MessageBox.Show(perro.getperroId() + perro.getName());
-
-            //MEDIATE PROPIEDA ATOCOMPLEMENTADA
-            //SET
-            perro._ownerName = "0001";
-
-
-            //GET
-            MessageBox.Show(perro._ownerName);
-
+            
         }
 
-       
+        private void btPerro_Click(object sender, EventArgs e)
+        {
+            Perro perro = new Perro();
+
+            perro.setperroId(Convert.ToInt32(txBoxId.Text));
+            perro.setName(txBoxName.Text);
+            perro.setRaza(txBoxRaza.Text);
+            perro.setAge(txBoxAge.Text);
+            perro.setVacuna(txBoxVacuna.Text);
+            perro.setOwnerName(txBoxownerName.Text);
+            perro.setTelephoneNumber(txBoxTelefono.Text);
+
+            lisBoxPerro.Items.Add(perro.getPerroGV());
+
+            txBoxId.Text = "";
+            txBoxName.Text = "";
+            txBoxRaza.Text = "";
+            txBoxAge.Text = "";
+            txBoxVacuna.Text = "";
+            txBoxownerName.Text = "";
+            txBoxTelefono.Text = "";
+           
+
+
+        }
     }
 }
+    
