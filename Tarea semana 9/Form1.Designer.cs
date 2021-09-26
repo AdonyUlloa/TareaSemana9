@@ -46,6 +46,7 @@ namespace Tarea_semana_9
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.lisBoxPerro = new System.Windows.Forms.ListBox();
+            this.label9 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btPerro
@@ -190,11 +191,23 @@ namespace Tarea_semana_9
             this.lisBoxPerro.Size = new System.Drawing.Size(772, 355);
             this.lisBoxPerro.TabIndex = 16;
             // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(931, 443);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(127, 13);
+            this.label9.TabIndex = 17;
+            this.label9.Text = "Asiganacion: PERRO";
+            this.label9.UseWaitCursor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1070, 465);
+            this.Controls.Add(this.label9);
             this.Controls.Add(this.lisBoxPerro);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.txBoxTelefono);
@@ -239,5 +252,6 @@ namespace Tarea_semana_9
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.ListBox lisBoxPerro;
+        private System.Windows.Forms.Label label9;
     }
 }
